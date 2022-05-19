@@ -84,7 +84,7 @@ public class MakeAnAppointmentPage extends BasePage {
         return estaDesplegada;
     }
 
-    //Metodo que valida que se puede seleccionar un servicio
+    //Metodo que valida que se puede seleccionar un serviciosdfgdsadfgyh
     public boolean seleccionarServicio(WebDriver driver, WebDriverWait wait, boolean seleccionado){
         WebElement menuLocalizaciones = driver.findElement(By.id(String.valueOf(ID_MENU_LOCALIZACION)));
         WebElement menuOficinas = driver.findElement(By.id(ID_MENU_OFICINAS));
