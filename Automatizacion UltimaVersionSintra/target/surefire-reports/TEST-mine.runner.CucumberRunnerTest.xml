@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="0" name="mine.runner.CucumberRunnerTest" time="55.91" errors="2" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tnerghes\Desktop\Automatizacion UltimaVersionSintra"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\tnerghes\Desktop\Automatizacion UltimaVersionSintra"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\tnerghes\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\tnerghes\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\tnerghes"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tnerghes"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_321\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.1 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="Access HomePage" name="Verify if an user can change the language at HomePage" time="9.262"/>
+  <testcase classname="Access HomePage" name="Verify an user can not change the language at HomePage" time="7.483"/>
+  <testcase classname="Access HomePage" name="Verify that users can selects &lt;location&gt; on the Home Page from Location area" time="6.82"/>
+  <testcase classname="Access HomePage" name="Select &lt;location&gt; from Location area" time="3.891"/>
+  <testcase classname="Access HomePage" name="Verify that users can select &lt;department&gt; on the home page from the department area" time="4.32"/>
+  <testcase classname="Access HomePage" name="Verify that users can select &lt;job&gt; on the home page from the job area" time="5.006"/>
+  <testcase classname="Access HomePage" name="Verify that users can select &lt;Date&gt; &amp; &lt;Time&gt; from Date area" time="9.237">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HL-01023&apos;, ip: &apos;10.50.8.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\tnerghes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85de419b10aa5df808829c9cc89fd0cf
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HL-01023&apos;, ip: &apos;10.50.8.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\tnerghes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85de419b10aa5df808829c9cc89fd0cf
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at mine.pages.HomePage.clickJob(HomePage.java:169)
+	at mine.stepdefs.HomePageSteps.SelectJob(HomePageSteps.java:98)
+	at ✽.The user selects a radio button from &lt;job&gt;(file:///C:/Users/tnerghes/Desktop/Automatizacion%20UltimaVersionSintra/src/test/resources/homePage.feature:42)
+</error>
+    <system-out>
+Scenario: Verify if an user can change the language at HomePage &amp;#27;[90m# src/test/resources/homePage.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                            &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe user click English language display&amp;#27;[0m                  &amp;#27;[90m# mine.stepdefs.HomePageSteps.clickLanguageButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mThe user changed the language at HomePage successfully&amp;#27;[0m   &amp;#27;[90m# mine.stepdefs.HomePageSteps.theHomePageEnglish()&amp;#27;[0m
+
+Scenario: Verify an user can not change the language at HomePage &amp;#27;[90m# src/test/resources/homePage.feature:10&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                             &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mthe user click English language display&amp;#27;[0m                    &amp;#27;[90m# mine.stepdefs.HomePageSteps.clickLanguageButton()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mThe HomePage did not loaded&amp;#27;[0m                               &amp;#27;[90m# mine.stepdefs.HomePageSteps.theHomePageDidNotLoaded()&amp;#27;[0m
+
+@testcase02
+Scenario: Verify that users can selects &lt;location&gt; on the Home Page from Location area                                                 &amp;#27;[90m# src/test/resources/homePage.feature:16&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                                   &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;location&gt;&amp;#27;[0m                                                                                 &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectLocation()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mLocation area is Folded while Department area is Deployed. The user can see on the right side the name of the Location selected&amp;#27;[0m &amp;#27;[90m# mine.stepdefs.HomePageSteps.locationIsDisplayed()&amp;#27;[0m
+
+Scenario: Select &lt;location&gt; from Location area                                                                                                 &amp;#27;[90m# src/test/resources/homePage.feature:20&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                                           &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;location&gt;&amp;#27;[0m                                                                                         &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectLocation()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mLocation area is not Folded while Department area is Deployed. The user can not see on the right side the name of the Location selected&amp;#27;[0m &amp;#27;[90m# mine.stepdefs.HomePageSteps.locationSelectedError()&amp;#27;[0m
+
+@testcase03
+Scenario: Verify that users can select &lt;department&gt; on the home page from the department area                                       &amp;#27;[90m# src/test/resources/homePage.feature:25&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                                &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;location&gt;&amp;#27;[0m                                                                              &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectLocation()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;department&gt;&amp;#27;[0m                                                                            &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectDepartment()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mDepartment area is Folded while Job area is Deployed. The user can see on the right side the name of the Department selected&amp;#27;[0m &amp;#27;[90m# mine.stepdefs.HomePageSteps.DepartmentIsSelected()&amp;#27;[0m
+
+@testcase04
+Scenario: Verify that users can select &lt;job&gt; on the home page from the job area                                        &amp;#27;[90m# src/test/resources/homePage.feature:31&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                   &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;location&gt;&amp;#27;[0m                                                                 &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectLocation()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;department&gt;&amp;#27;[0m                                                               &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectDepartment()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;job&gt;&amp;#27;[0m                                                                      &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectJob()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mJob area is Folded while Date area is Deployed. The user can see on the right side the name of the Job selected&amp;#27;[0m &amp;#27;[90m# mine.stepdefs.HomePageSteps.JobIsSelected()&amp;#27;[0m
+
+@testcase05
+Scenario: Verify that users can select &lt;Date&gt; &amp; &lt;Time&gt; from Date area                                                        &amp;#27;[90m# src/test/resources/homePage.feature:39&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                         &amp;#27;[90m# mine.stepdefs.HomePageSteps.NavigateAtHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;location&gt;&amp;#27;[0m                                                                       &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectLocation()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user selects a radio button from &lt;department&gt;&amp;#27;[0m                                                                     &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectDepartment()&amp;#27;[0m
+  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mThe user selects a radio button from &lt;job&gt;&amp;#27;[0m                                                                            &amp;#27;[90m# mine.stepdefs.HomePageSteps.SelectJob()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HL-01023&apos;, ip: &apos;10.50.8.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\tnerghes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85de419b10aa5df808829c9cc89fd0cf
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Consultas sobre futbol base&apos;)]//ancestor::mat-radio-button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverComman</system-out>
+    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 45016
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 06, 2022 10:46:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI�N: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Access HomePage" name="Verify that users can complete Client Information form" time="9.891">
+    <error message="element not interactable
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HL-01023&apos;, ip: &apos;10.50.8.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\tnerghes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d7db7b19154bff62d4a54edeea2c30b" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HL-01023&apos;, ip: &apos;10.50.8.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\tnerghes\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d7db7b19154bff62d4a54edeea2c30b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at mine.pages.HomePage.clickDate(HomePage.java:127)
+	at mine.stepdefs.HomePageSteps.selectsAvailableDate(HomePageSteps.java:114)
+	at ✽.The user selects an available date(file:///C:/Users/tnerghes/Desktop/Automatizacion%20UltimaVersionSintra/src/test/resources/homePage.feature:52)
+</error>
+    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 30663
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 06, 2022 10:46:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI�N: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
